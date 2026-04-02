@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>祝齐芷卉女士22岁生日快乐！</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-bg"></div>
+    <div class="sparkles" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <main class="page">
+      <section class="hero section">
+        <div class="hero-card">
+          <p class="hero-tag">Happy Birthday</p>
+          <h1>祝齐芷卉女士22岁生日快乐！</h1>
+          <p class="hero-subtitle">愿你这一岁，心里有光，脚下有路。</p>
+          <button class="primary-button" id="hero-surprise-button">点我一下</button>
+        </div>
+      </section>
+
+      <section class="section message-section">
+        <div class="section-heading">
+          <p class="eyebrow">Birthday Letter</p>
+          <h2>一些想认真对你说的话</h2>
+        </div>
+        <div class="message-card">
+          <p>今天是一个很特别的日子，因为亲爱的qzh又长大一岁啦。</p>
+          <p>
+            希望 22 岁的qzh，依旧明媚、真诚、自由，做喜欢的事，见想见的人，拥有很多很多值得开心的瞬间。
+          </p>
+          <p>
+            21岁的qzh很勇敢地去到了美国，并且在美国也认识了新的朋友，是特别特别厉害的人！祝22岁的qzh也能走很多地方，遇见很多新的朋友，学到很多新的东西！7月份应该就能见面啦，真的好久不见TT
+          </p>
+          <p>想念你🥰</p>
+        </div>
+      </section>
+
+      <section class="section memories-section">
+        <div class="section-heading">
+          <p class="eyebrow">Memories</p>
+          <h2>我们的共同回忆</h2>
+          <p class="section-desc">和qzh已经认识10年啦，一起走过好多地方，经历了很多事情</p>
+        </div>
+        <div class="memory-grid">
+          <article class="memory-card">
+            <img class="memory-photo" src="img/0001.jpg" alt="齐芷卉的回忆照片 1" />
+            <p>中考结束，在执信门口发起冲锋</p>
+          </article>
+          <article class="memory-card">
+            <img class="memory-photo" src="img/0002.jpg" alt="齐芷卉的回忆照片 2" />
+            <p>艺术节《蜀绣》，但两个人一个穿礼仪服，一个穿主持人礼裙哈哈哈</p>
+          </article>
+          <article class="memory-card">
+            <img class="memory-photo" src="img/0003.jpg" alt="齐芷卉的回忆照片 3" />
+            <p>大一在广州乱逛逛逛逛，美丽qzh</p>
+          </article>
+          <article class="memory-card">
+            <img class="memory-photo" src="img/0004.jpg" alt="齐芷卉的回忆照片 4" />
+            <p>看杨丽萍舞剧中，并袭击相机（不是</p>
+          </article>
+          <article class="memory-card">
+            <img class="memory-photo" src="img/0005.jpg" alt="齐芷卉的回忆照片 5" />
+            <p>临去美国的最后一个下午，在北大工学院门口继承qzh的电动车哈哈哈哈</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section surprise-section">
+        <div class="surprise-card">
+          <p class="eyebrow">Little Surprise</p>
+          <h2>这里还有一份隐藏祝福</h2>
+          <p>点开后，会出现一段只送给你的生日彩蛋。</p>
+          <button class="primary-button" id="open-modal-button">打开生日惊喜</button>
+        </div>
+      </section>
+
+      <section class="section closing-section">
+        <p class="closing-text">生日快乐，愿你的22岁闪闪发光✨</p>
+        <p class="closing-signature">送给最特别的你</p>
+        <p class="closing-signature">from 海龟猹</p>
+      </section>
+    </main>
+
+    <div class="modal hidden" id="surprise-modal" aria-hidden="true">
+      <div class="modal-backdrop" id="modal-backdrop"></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" id="close-modal-button" aria-label="关闭惊喜">×</button>
+        <p class="eyebrow">For QZH</p>
+        <h2 id="modal-title">齐芷卉女士，22 岁快乐。</h2>
+        <div class="modal-content">
+          <p>愿你永远有选择自己生活的勇气，</p>
+          <p>D-兄弟永远支持你！</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="heart-container" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
